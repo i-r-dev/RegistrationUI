@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registration_styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/2d9630f6e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h2>Create an account</h2>
+    </div>
+
+    <form class="form" id="username_form" method="post">
+
+        <!-- Username -->
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="your name">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+
+
+        <!-- Email -->
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@mail.com">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+
+        <!-- password -->
+        <div class="form-control">
+            <label for="psw">Password</label>
+            <input type="password" id="psw" placeholder="Password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+
+        <!-- password2 -->
+        <div class="form-control">
+            <label for="psw2">Password</label>
+            <input type="password" id="psw2" placeholder="Password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+
+        <button class="btn-grad">Submit</button>
+    </form>
+</div>
+</body>
+</html>

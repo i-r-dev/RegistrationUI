@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+label, button {
+    cursor: pointer;
+}
+
+#username::placeholder {
+    color: gray;
+}
+
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    /*background-color: #9b59b6;*/
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+.header {
+    background-color: #f7f7f7;
+    /*margin: 0;*/
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.form {
+    padding: 14px 40px;
+}
+
+.form-control {
+    position: relative;
+    margin: 1.5rem 0;
+}
+
+.form-control label {
+    display: block;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control i {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: -20px;
+}
+
+.form-control.error small {
+    color: #e74c3c;
+    visibility: visible;
+
+}
+
+.container button {
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.1rem;
+    background-color: #8e44ad;
+    border: none;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+.btn-grad {
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
